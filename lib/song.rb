@@ -9,7 +9,7 @@ class Song
   
   def self.all 
     if self.artist 
-      self.artist
+      self.all
     else 
       return nil
     end
