@@ -7,4 +7,11 @@ class Song
     @@all << self
   end 
   
+  def self.all 
+    if self.artist 
+      self.artist
+    else 
+      return nil
+    end
+  end
 end
